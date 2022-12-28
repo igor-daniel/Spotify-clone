@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.btn-primary {
+  background: #1db954;
+  color: #FFF;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px bold;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+  display: flex;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar .navbar-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+
+#navbar .navbar-container ul {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+}
+
+#navbar .navbar-container ul li {
+  padding: 0 20px;
+}
+
+#navbar .navbar-container ul li:nth-child(3) {
+  border-right: 1px solid white;
+}
+
+.show-case {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  background: url("/img/showcase.webp") center center/cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: color;
+}
+
+.show-case .show-case-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-case .show-case-container h2 {
+  font-size: 5rem;
+}
+
+.show-case .show-case-container p {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
